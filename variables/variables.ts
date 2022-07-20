@@ -28,7 +28,7 @@ console.log(a1);
 console.log(a2);
 console.log(a3);
 
-// Array
+// Array --> homogenous
 
 var array1: Array<string> = [
     'AngularJS',
@@ -43,3 +43,8 @@ console.log(array1[0]);
 
 //Length of the Array
 console.log(array1.length);
+
+// Array --> heterogenous
+
+var array2: Array<any> = [123, 'ReactJS', true];
+console.log(array2);

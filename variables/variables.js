@@ -22,7 +22,7 @@ var a3 = {
 console.log(a1);
 console.log(a2);
 console.log(a3);
-// Array
+// Array --> homogenous
 var array1 = [
     'AngularJS',
     'ReactJS',
@@ -31,4 +31,8 @@ var array1 = [
 console.log(array1);
 // Pick the first element within the array
 console.log(array1[0]);
+//Length of the Array
 console.log(array1.length);
+// Array --> heterogenous
+var array2 = [123, 'ReactJS', true];
+console.log(array2);
