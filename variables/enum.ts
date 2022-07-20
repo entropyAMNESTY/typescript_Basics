@@ -1,4 +1,5 @@
 // Enums -- Collection of constant values -- indexNumbers
+// Enumeration or Enum in C is a special kind of data type defined by the user. It consists of constant integrals or integers that are given names by a user.
 
 enum Gender {
     Male,
