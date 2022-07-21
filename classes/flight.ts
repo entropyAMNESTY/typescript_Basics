@@ -5,6 +5,7 @@ interface IFlight {
     display(): void;
 }
 
+// implements --> follow the rules of the interface
 class Flight implements IFlight {
     flightNo: number;
     from: string;
