@@ -29,5 +29,7 @@ class Tutor {
 }
 
 var tutor = new Tutor();
+//set
 tutor.name = 'Georg';
+//get
 console.log(tutor.name);
